@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -7,25 +6,71 @@ header {
     padding: 20px;
     background-color: teal;
 }
+#second {
+  background-image: url(../images/matrix-code.jpg);
+}
 h1 {
     padding: 20px;
     display: inline-block;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
+    background-color: purple;
 }
-a {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h2 {
     font-size: 48px;
-    float: right;
-}
-#matrix {
-    background-image: url(../images/matrix-code.jpg);
+
 }
 h3 {
     font-size: 48px;
     text-align: right;
 }
 .box {
-    
+  float: right;
+  margin-top: 120px;
+}
+header a {
+  color:purple;
+}
+header nav {
+  float: right;
+  margin: 30px 0;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 30px;
+  font-weight: lighter;
+  font-size: 36px;
+}
+section a {
+  color:purple;
+}
+section nav {
+  float: right;
+  margin: 30px 0;
+}
+section nav ul li {
+  display: inline;
+}
+section nav ul li a {
+  margin: 30px;
+  font-weight: lighter;
+  font-size: 36px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.section-title {
+  flex: 0 0 20%;
+  text-align: center;
+  border-right: 4px solid purple;
+}
+.section-content {
+  flex: 0 0 77%;
+  font-size: 48px;
 }
