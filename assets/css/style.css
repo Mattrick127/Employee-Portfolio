@@ -43,21 +43,6 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 36px;
 }
-section a {
-  color:purple;
-}
-section nav {
-  float: right;
-  margin: 30px 0;
-}
-section nav ul li {
-  display: inline;
-}
-section nav ul li a {
-  margin: 30px;
-  font-weight: lighter;
-  font-size: 36px;
-}
 section {
     display: flex;
     flex-direction: row;
@@ -65,12 +50,27 @@ section {
     align-items: stretch;
     justify-content: space-between;
 }
+section a {
+  color:purple;
+}
+section nav ul li {
+  display: inline;
+}
+section nav ul li a{
+  margin: 100px;
+  font-weight: lighter;
+  font-size: 36px;
+}
 .section-title {
   flex: 0 0 20%;
   text-align: center;
   border-right: 4px solid purple;
 }
 .section-content {
+  flex: 0 0 77%;
+  font-size: 48px;
+}
+.contact-content {
   flex: 0 0 77%;
   font-size: 48px;
 }
