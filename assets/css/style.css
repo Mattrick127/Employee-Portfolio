@@ -5,6 +5,7 @@
   color: teal;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -14,24 +15,30 @@ header {
   padding: 20px;
   background-color: teal;
 }
+
 header a {
   color:purple;
 }
+
 header nav {
   float: right;
   margin: 30px 0;
 }
+
 header nav ul li {
   display: inline;
 }
+
 header nav ul li a {
   margin: 30px;
   font-weight: lighter;
   font-size: 36px;
 }
+
 #second {
   background-image: url(../images/matrix-code.jpg);
 }
+
 h1 {
     padding: 20px;
     display: inline-block;
@@ -39,23 +46,28 @@ h1 {
     font-size: 48px;
     background-color: purple;
 }
+
 h2 {
     font-size: 48px;
 
 }
+
 h3 {
     font-size: 48px;
 }
+
 p {
   background-color: gray;
   font-size: 24px;
 }
+
 article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
 }
+
 section {
     display: flex;
     flex-direction: row;
@@ -63,33 +75,36 @@ section {
     align-items: stretch;
     justify-content: space-between;
 }
+
 section a {
   color:purple;
 }
+
 section nav ul li {
   display: inline;
 }
+
 section nav ul li a{
   margin: 80px;
   font-weight: lighter;
   font-size: 36px;
 }
 
-
 .section-title {
   flex: 0 0 20%;
   text-align: center;
   border-right: 4px solid purple;
 }
+
 .section-content {
   flex: 0 0 77%;
   font-size: 48px;
 }
+
 .contact-content {
   flex: 0 0 77%;
   font-size: 48px;
 }
-
 
 .projects {
   flex: 1;
@@ -109,12 +124,13 @@ section nav ul li a{
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
 }
+
 .horiSEOn img {
   flex: 0 0 77%;
   height: 450px;
   width: 1000px;
-  
 }
+
 .projects:hover .horiSEOn {
   opacity: 0.3;
 }
@@ -128,17 +144,20 @@ section nav ul li a{
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
 }
+
 .run-buddy img {
   flex: 0 0 77%;
   height: 200px;
   width: 1000px;
 }
+
 .projects:hover .run-buddy {
   opacity: 0.3;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+
   header {
     padding-bottom: 0;
     justify-content: center;
@@ -149,11 +168,13 @@ section nav ul li a{
     width: 100%;
     text-align: center;
   }
+
   header nav ul {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
   }
+
   header nav ul li a {
     display: flex;
     align-items: center;
@@ -163,19 +184,23 @@ section nav ul li a{
     width: 100%;
     text-align: center;
   }
+
   #about-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   #works {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   #contact-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
 }
