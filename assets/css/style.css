@@ -127,12 +127,17 @@ section nav ul li a{
 
 .horiSEOn img {
   flex: 0 0 77%;
-  height: 450px;
+  height: 800px;
   width: 1000px;
 }
 
-.projects:hover .horiSEOn {
-  opacity: 0.3;
+.run-buddy {
+  flex: 1;
+  background-color: var(--white);
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .run-buddy {
@@ -147,11 +152,26 @@ section nav ul li a{
 
 .run-buddy img {
   flex: 0 0 77%;
-  height: 200px;
+  height: 800px;
   width: 1000px;
 }
 
-.projects:hover .run-buddy {
+.team-project {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
+
+.team-project img {
+  flex: 0 0 77%;
+  height: 800px;
+  width: 1000px;
+}
+.run-buddy.hover {
   opacity: 0.3;
 }
 
