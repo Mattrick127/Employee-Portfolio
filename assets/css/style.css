@@ -156,7 +156,7 @@ section nav ul li a{
   width: 1000px;
 }
 
-.team-project {
+.team-project-1 {
   border-style: solid;
   border-width: 1px;
   border-radius: var(--border-radius);
@@ -166,12 +166,32 @@ section nav ul li a{
   margin: 20px;
 }
 
-.team-project img {
+.team-project-2 img {
   flex: 0 0 77%;
   height: 800px;
   width: 1000px;
 }
+.team-project-2 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
+
+.team-project-1 img {
+  flex: 0 0 77%;
+  height: 800px;
+  width: 1000px;
+}
+
 .run-buddy.hover {
+  opacity: 0.3;
+}
+
+.team-project-1.hover {
   opacity: 0.3;
 }
 
